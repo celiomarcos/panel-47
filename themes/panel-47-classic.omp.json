@@ -19,7 +19,7 @@
           "foreground": "#000000",
           "leading_diamond": " ",
           "style": "diamond",
-          "template": "{{ upper .Name }} {{ .Version }}",
+          "template": "󱓞 {{ upper .Name }} {{ .Version }}",
           "trailing_diamond": "",
           "type": "shell"
         },
@@ -28,21 +28,9 @@
           "foreground": "#000000",
           "leading_diamond": " ",
           "style": "diamond",
-          "template": "{{ .UserName }}@{{ .HostName }}{{ if .SSHSession }} ▪ SSH{{ end }}",
+          "template": "󰀗 {{ .UserName }}@{{ .HostName }}{{ if .SSHSession }} ▪ SSH{{ end }}",
           "trailing_diamond": "",
           "type": "session"
-        },
-        {
-          "background": "#FFCC99",
-          "foreground": "#000000",
-          "leading_diamond": " ",
-          "options": {
-            "style": "full"
-          },
-          "style": "diamond",
-          "template": " {{ .Path }}",
-          "trailing_diamond": "",
-          "type": "path"
         },
         {
           "background": "#CC99CC",
@@ -82,7 +70,7 @@
           "foreground": "#000000",
           "leading_diamond": "",
           "style": "diamond",
-          "template": "{{ if eq .Type \"wifi\" }}WIFI{{ else if eq .Type \"ethernet\" }}LAN{{ end }}",
+          "template": "{{ if eq .Type \"wifi\" }}󰤉 WIFI{{ else if eq .Type \"ethernet\" }}󱄙 LAN{{ end }}",
           "trailing_diamond": " ",
           "type": "connection"
         },
@@ -91,7 +79,7 @@
           "foreground": "#000000",
           "leading_diamond": "",
           "style": "diamond",
-          "template": "MEM {{ printf \"%.0f\" .PhysicalPercentUsed }}%",
+          "template": "󰐷 MEM {{ printf \"%.0f\" .PhysicalPercentUsed }}%",
           "trailing_diamond": " ",
           "type": "sysinfo"
         },
@@ -116,7 +104,7 @@
             "time_format": "15:04:05"
           },
           "style": "diamond",
-          "template": "SD {{ printf \"%d.%03d\" .CurrentDate.Year .CurrentDate.YearDay }} ▪ {{ .CurrentDate | date .Format }}",
+          "template": "󰀘 SD {{ printf \"%d.%03d\" .CurrentDate.Year .CurrentDate.YearDay }} ▪ {{ .CurrentDate | date .Format }}",
           "trailing_diamond": "",
           "type": "time"
         }
@@ -132,7 +120,7 @@
           "foreground": "#000000",
           "leading_diamond": "",
           "style": "diamond",
-          "template": "<b>SU</b>",
+          "template": "<b>󰫤 SU</b>",
           "trailing_diamond": " ",
           "type": "root"
         },
@@ -141,7 +129,7 @@
           "foreground": "#000000",
           "leading_diamond": "",
           "style": "diamond",
-          "template": "{{ if or .Version .Name }}PRJ {{ if .Name }}{{ .Name }}{{ end }}{{ if .Version }} {{ .Version }}{{ end }}{{ end }}",
+          "template": "{{ if or .Version .Name }}󱎃 PRJ {{ if .Name }}{{ .Name }}{{ end }}{{ if .Version }} {{ .Version }}{{ end }}{{ end }}",
           "trailing_diamond": " ",
           "type": "project"
         },
@@ -315,7 +303,7 @@
             "parse_kubeconfig": true
           },
           "style": "diamond",
-          "template": "K8S {{ .Context }}{{ if .Namespace }}::{{ .Namespace }}{{ end }}",
+          "template": "󰠳 K8S {{ .Context }}{{ if .Namespace }}::{{ .Namespace }}{{ end }}",
           "trailing_diamond": " ",
           "type": "kubectl"
         },
@@ -371,7 +359,7 @@
             "always_enabled": true
           },
           "style": "diamond",
-          "template": "EXEC {{ .FormattedMs }}",
+          "template": "󱝂 EXEC {{ .FormattedMs }}",
           "trailing_diamond": " ",
           "type": "executiontime"
         },
@@ -386,7 +374,7 @@
             "always_enabled": true
           },
           "style": "diamond",
-          "template": "{{ if gt .Code 0 }}<b>ALERT {{ .Code }}</b>{{ else }}NOMINAL{{ end }}",
+          "template": "{{ if gt .Code 0 }}<b>ALERT {{ .Code }}</b>{{ else }}󰫥 NOMINAL{{ end }}",
           "trailing_diamond": "",
           "type": "status"
         }
@@ -398,6 +386,19 @@
       "newline": true,
       "segments": [
         {
+          "background": "#FFCC99",
+          "foreground": "#000000",
+          "leading_diamond": "",
+          "options": {
+            "style": "full",
+            "home_icon": "󰇧 ~"
+          },
+          "style": "diamond",
+          "template": "󰚝 {{ .Path }}",
+          "trailing_diamond": " ",
+          "type": "path"
+        },
+        {
           "background": "#FF9900",
           "background_templates": [
             "{{ if gt .Code 0 }}#CC6666{{ end }}"
@@ -405,7 +406,7 @@
           "foreground": "#000000",
           "leading_diamond": "",
           "style": "diamond",
-          "template": "<b>❯</b>",
+          "template": "<b> ❯</b>",
           "trailing_diamond": "",
           "type": "text"
         }
