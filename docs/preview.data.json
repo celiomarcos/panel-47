@@ -1,0 +1,266 @@
+{
+  "env": {
+    "AbsolutePWD": "C:\\Users\\picard\\warp-core",
+    "Code": 0,
+    "Folder": "warp-core",
+    "HostName": "ncc-1701-d",
+    "Jobs": 0,
+    "OS": "windows",
+    "PSWD": "",
+    "PWD": "~\\warp-core",
+    "PromptCount": 9,
+    "Root": false,
+    "SHLVL": 0,
+    "Shell": "pwsh",
+    "ShellVersion": "7.5",
+    "UserName": "picard",
+    "Version": "29.26.0",
+    "WSL": false
+  },
+  "segments": {
+    "aws": {
+      "Segment": {
+        "Text": " AWS default@us-east-1",
+        "Index": 2
+      },
+      "SSOSession": {},
+      "Profile": "default",
+      "Region": "us-east-1",
+      "AccountID": "",
+      "AccessKeyID": ""
+    },
+    "connection": {
+      "Segment": {
+        "Text": "󱄙 LAN",
+        "Index": 0
+      },
+      "Name": "Ethernet",
+      "Type": "ethernet",
+      "SSID": "",
+      "TransmitRate": 1000000000,
+      "ReceiveRate": 1000000000
+    },
+    "docker": {
+      "Segment": {
+        "Text": " DOCKER desktop-linux",
+        "Index": 1
+      },
+      "Context": "desktop-linux",
+      "Containers": null
+    },
+    "executiontime": {
+      "Segment": {
+        "Text": "󱝂 EXEC 0ms",
+        "Index": 0
+      },
+      "FormattedMs": "0ms",
+      "Ms": 0
+    },
+    "gcp": {
+      "Segment": {
+        "Text": " GCP gaebichoderua",
+        "Index": 3
+      },
+      "Account": "picard@starfleet.example",
+      "Project": "astrometrics",
+      "Region": "us-central1",
+      "ActiveConfig": "default"
+    },
+    "git": {
+      "Working": {
+        "Formats": {},
+        "Unmerged": 0,
+        "Deleted": 0,
+        "Added": 0,
+        "Modified": 1,
+        "Moved": 0,
+        "Conflicted": 0,
+        "Untracked": 2,
+        "Clean": 0,
+        "Missing": 0,
+        "Ignored": 0
+      },
+      "Staging": {
+        "Formats": {},
+        "Unmerged": 0,
+        "Deleted": 0,
+        "Added": 0,
+        "Modified": 0,
+        "Moved": 0,
+        "Conflicted": 0,
+        "Untracked": 0,
+        "Clean": 0,
+        "Missing": 0,
+        "Ignored": 0
+      },
+      "Rebase": null,
+      "User": {
+        "Name": "",
+        "Email": ""
+      },
+      "ShortHash": "a2d8ab0",
+      "Hash": "a2d8ab061062a4907551e0d396690cb02f8f9eaa",
+      "BranchStatus": "≡",
+      "HEAD": "main",
+      "UpstreamIcon": "",
+      "UpstreamURL": "https://github.com/celiomarcos/panel-47",
+      "Ref": "main",
+      "RawUpstreamURL": "git@github.com:celiomarcos/panel-47.git",
+      "Segment": {
+        "Text": null,
+        "Index": 4
+      },
+      "Dir": "~\\projects\\panel-47",
+      "RepoName": "panel-47",
+      "Upstream": "origin/main",
+      "IsWslSharedPath": false,
+      "CommandMissing": false,
+      "Ahead": 0,
+      "PushAhead": 0,
+      "PushBehind": 0,
+      "Behind": 0,
+      "IsWorkTree": false,
+      "Merge": false,
+      "CherryPick": false,
+      "Revert": false,
+      "Detached": false,
+      "IsBare": false,
+      "UpstreamGone": false
+    },
+    "os": {
+      "Segment": {
+        "Text": "",
+        "Index": 1
+      },
+      "Icon": ""
+    },
+    "path": {
+      "Segment": {
+        "Text": "󰚝 󰇧 ~  projects  panel-47",
+        "Index": 1
+      },
+      "Location": "C:/Users/picard/warp-core",
+      "Path": "󰇧 ~  warp-core",
+      "Folders": [
+        {
+          "Name": "warp-core",
+          "Path": "󰇧 ~\\warp-core",
+          "Display": false
+        }
+      ],
+      "StackCount": 0,
+      "Writable": true,
+      "RootDir": false
+    },
+    "session": {
+      "Segment": {
+        "Text": null,
+        "Index": 3
+      },
+      "SSHSession": false
+    },
+    "shell": {
+      "Segment": {
+        "Text": "󱓞 SHELL ",
+        "Index": 2
+      },
+      "Name": "pwsh",
+      "Version": "7.5"
+    },
+    "status": {
+      "Segment": {
+        "Text": "󰫥 NOMINAL",
+        "Index": 1
+      },
+      "String": "0",
+      "Meaning": "0",
+      "Error": false
+    },
+    "sysinfo": {
+      "Segment": {
+        "Text": "󰐷 MEM 62%",
+        "Index": 1
+      },
+      "Disks": {
+        "C:": {
+          "readCount": 2356710,
+          "mergedReadCount": 0,
+          "writeCount": 1689790,
+          "mergedWriteCount": 0,
+          "readBytes": 31106910720,
+          "writeBytes": 34730404352,
+          "readTime": 490,
+          "writeTime": 155,
+          "iopsInProgress": 0,
+          "ioTime": 0,
+          "weightedIO": 0,
+          "name": "C:",
+          "serialNumber": "",
+          "label": ""
+        },
+        "D:": {
+          "readCount": 47725,
+          "mergedReadCount": 0,
+          "writeCount": 17545,
+          "mergedWriteCount": 0,
+          "readBytes": 1124919296,
+          "writeBytes": 1145028608,
+          "readTime": 4,
+          "writeTime": 1,
+          "iopsInProgress": 0,
+          "ioTime": 0,
+          "weightedIO": 0,
+          "name": "D:",
+          "serialNumber": "",
+          "label": ""
+        }
+      },
+      "PhysicalTotalMemory": 34110676992,
+      "PhysicalAvailableMemory": 12917800960,
+      "PhysicalFreeMemory": 12917800960,
+      "PhysicalPercentUsed": 62,
+      "SwapTotalMemory": 0,
+      "SwapFreeMemory": 0,
+      "SwapPercentUsed": 0,
+      "Load1": 0,
+      "Load5": 0,
+      "Load15": 0,
+      "Precision": 2
+    },
+    "text": {
+      "Segment": {
+        "Text": "<b> ❯</b>",
+        "Index": 2
+      }
+    },
+    "time": {
+      "Segment": {
+        "Text": "󰀘 SD 2026.195  17:31:23",
+        "Index": 2
+      },
+      "CurrentDate": "2026-07-14T17:31:23.137698-03:00",
+      "Format": "15:04:05"
+    },
+    "project": {
+      "Segment": {
+        "Text": "",
+        "Index": 1
+      },
+      "Type": "node",
+      "Version": "4.7.0",
+      "Name": "warp-core"
+    },
+    "node": {
+      "Segment": {
+        "Text": "",
+        "Index": 3
+      },
+      "Full": "24.18.0",
+      "Major": "24",
+      "Minor": "18",
+      "Patch": "0",
+      "PackageManagerIcon": "",
+      "Mismatch": false
+    }
+  }
+}
